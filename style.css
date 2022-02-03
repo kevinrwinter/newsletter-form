@@ -7,9 +7,6 @@
 }
 
 body {
-  /* background-color: rebeccapurple; */
-  /* border: 2px solid darkcyan; */
-
   font-family: "Raleway", sans-serif;
   background-color: #236746;
   color: #ffffff;
@@ -38,7 +35,6 @@ p {
 }
 
 footer p {
-  /* text-align: left; */
   text-align: center;
 }
 
@@ -49,16 +45,12 @@ footer p {
 }
 
 .container-main {
-  /* border: 2px solid darkmagenta; */
-
   margin: 2em auto;
   max-width: 360px;
   padding: 1.25em;
 }
 
 .container-form {
-  /* border: 2px solid gold; */
-
   background-color: #ffffff;
   padding: 1em 1.5em;
   color: #333333;
@@ -94,18 +86,20 @@ input {
   border-style: none;
   border-radius: 5px;
   cursor: pointer;
+
+  transition: width 300ms;
 }
 
 .btn:hover,
 .btn:focus {
-  /* background-color: #bd4b21; */
-  /* background-color: #c75b33; */
   background-color: #e35d2c;
+
+  letter-spacing: 0.7px;
+  width: 97%;
 }
 
 a:hover,
 a:focus {
-  /* color: #e35d2c; */
   color: #c75b33;
   text-decoration: underline;
 }
